@@ -150,12 +150,12 @@
 }
 
 .dot {
-  height: 65px;
-  width: 65px;
-  background-color: #D5D5D5;
+  height: 55px;
+  width: 55px;
+  background-color: #aaa;
   border-radius: 50%;
   position: absolute;
-  top: -10px;
+  top: -5px;
   left: -20px;
   z-index: -1;
   opacity: 0.5;
@@ -203,7 +203,7 @@ nav .nav-links {
 }
 
 main {
-  height: calc(100vh - 80px);
+  height: 100vh;
   position: relative;
   padding: 0px 25px;
 }
@@ -247,6 +247,30 @@ main .animation-section img {
 
 .secondary-section {
   background-color: #fff;
-  padding: 3rem;
-  margin: 0 !important;
+  height: 40vh;
+  padding: 0 2rem;
+}
+.secondary-section .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  height: 100%;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #171717;
+  height: 60vh;
+  color: #fff;
+  text-align: center;
+}
+footer b {
+  font-size: 48px;
+}
+footer p {
+  font-size: 24px;
 }/*# sourceMappingURL=style.css.map */
